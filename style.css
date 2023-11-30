@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.xtrafondos.com/wallpapers/efecto-visual-de-fuego-abstracto-4705.jpg");
+    padding-top: 60px; /* Agrega un padding al cuerpo para compensar la altura de la barra de navegación */
+}
+
+h3 {
+    text-align: justify;
+}
+
+#encabezado {
+    color: white;
+}
+
+header {
+    background-color: rgb(2, 9, 140);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 15px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Ajusta el margen superior para dejar espacio para la barra de navegación */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    margin: 30px 0 20px; /* Ajusta el margen superior de las secciones para compensar la altura de la barra de navegación */
+    padding-top: 5px; /* Ajusta el padding superior para dejar espacio para la barra de navegación */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+.redes{
+    max-width: 100px;
+    height: 25px;;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+.subtitulos{
+    background-color: blue;
+    text-align: center;
+}
+
+.recipe {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.recipe-img {
+    max-width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.recipe-text {
+    flex-grow: 1;
+}
+
+/* ... Más estilos según sea necesario ... */
+
+
+#comment-section {
+    text-align: left;
+}
+
+#comments-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#comment-text,
+#comment-username {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#add-comment-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.zoom-image:hover {
+    transform: scale(1.2);
+    filter: blur(4px);
+}
+
+.imagenes{
+    width: 200px;
+    height: 200px;
+    
+}
+
+#logo-container-nav {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 1000;
+}
+
+#logo-nav {
+    width: 30px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#redes {
+    display: flexbox;
+    justify-content: center;
+    margin-top: 109px; /* Ajusta el margen según tus necesidades */
+}
+
+.red-social {
+    text-align: center;
+}
+
+.red-social a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.red-social img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.red-social h3 {
+    margin-top: 5px;
+}
